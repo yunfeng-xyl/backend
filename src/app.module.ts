@@ -4,7 +4,7 @@ import { TypeOrmModule } from "@nestjs/typeorm";
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { UserModule } from "./modules/user/user.module";
-import configuration from "./config/configuration";
+import configuration from "../config/configuration";
 import { AuthModule } from "./modules/auth/auth.module";
 import { UserController } from "./modules/user/user.controller";
 
